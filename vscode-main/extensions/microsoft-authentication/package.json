@@ -50,7 +50,7 @@
     "@types/node-fetch": "^2.5.7",
     "@types/randombytes": "^2.0.0",
     "@types/sha.js": "^2.4.0",
-    "@types/uuid": "8.0.0"
+    "@types/uuid": "8.0.1"
   },
   "dependencies": {
     "buffer": "^5.6.0",
