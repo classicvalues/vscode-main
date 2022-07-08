@@ -9405,10 +9405,10 @@ ts-morph@^10.0.2:
     "@ts-morph/common" "~0.9.0"
     code-block-writer "^10.1.1"
 
-tsec@0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/tsec/-/tsec-0.1.4.tgz#dc8743c28ad01230ea4692e326866e0d54487f3f"
-  integrity sha512-7r6m7gmRE11si2FeM0pPoLfGV3AZTRcJJxx2bS5MYtvwaEMNqq2QlaVAEYaH1RqICeN3ODe2jVBJkC+JYQ/gtQ==
+tsec@0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/tsec/-/tsec-0.2.6.tgz#a1d8a73d460986de2b4535e0ecedf95fb09bb216"
+  integrity sha512-k+R542uVRucupBFLsSXVvrgyy0W7MMNFsrDxewBsFaCGO18P9HX/91GmejA8cywRneWPV/CRdj3JwslKoPafVA==
   dependencies:
     glob "^7.1.1"
     minimatch "^3.0.3"
