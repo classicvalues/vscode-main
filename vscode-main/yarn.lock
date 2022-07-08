@@ -3184,10 +3184,10 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.3, escape-string-regexp@^
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-plugin-jsdoc@^19.1.0:
-  version "19.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-19.1.0.tgz#fcc17f0378fdd6ee1c847a79b7211745cb05d014"
-  integrity sha512-rw8ouveUzz41dgSCyjlZgh5cKuQIyBzsrJnKeGYoY74+9AXuOygAQMwvyN4bMRp0hJu0DYQptKyQiSBqOnXmTg==
+eslint-plugin-jsdoc@19.2.0:
+  version "19.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-19.2.0.tgz#f522b970878ae402b28ce62187305b33dfe2c834"
+  integrity sha512-QdNifBFLXCDGdy+26RXxcrqzEZarFWNybCZQVqJQYEYPlxd6lm+LPkrs6mCOhaGc2wqC6zqpedBQFX8nQJuKSw==
   dependencies:
     comment-parser "^0.7.2"
     debug "^4.1.1"
