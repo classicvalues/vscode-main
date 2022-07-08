@@ -19,7 +19,7 @@
     "vscode:prepublish": "node ../../node_modules/gulp/bin/gulp.js --gulpfile ../../build/gulpfile.extensions.js compile-extension:vscode-notebook-tests ./tsconfig.json"
   },
   "dependencies": {
-    "p-limit": "^3.0.2"
+    "p-limit": "3.1.0"
   },
   "devDependencies": {
     "@types/node": "^12.19.9",
