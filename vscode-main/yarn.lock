@@ -2067,11 +2067,6 @@ chromium-pickle-js@^0.2.0:
   resolved "https://registry.yarnpkg.com/chromium-pickle-js/-/chromium-pickle-js-0.2.0.tgz#04a106672c18b085ab774d983dfa3ea138f22205"
   integrity sha1-BKEGZywYsIWrd02YPfo+oTjyIgU=
 
-ci-info@^1.5.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-1.6.0.tgz#2ca20dbb9ceb32d4524a683303313f0304b1e497"
-  integrity sha512-vsGdkwSCDpWmP80ncATX7iea5DWQemg1UgCW5J8tqjU3lYw4FBYuj89J0CTVomA7BEfvSZd84GmHko+MxFQU2A==
-
 cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/cipher-base/-/cipher-base-1.0.4.tgz#8760e4ecc272f4c363532f926d874aae2c1397de"
@@ -3888,11 +3883,6 @@ find-cache-dir@^3.3.1:
     make-dir "^3.0.2"
     pkg-dir "^4.1.0"
 
-find-parent-dir@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/find-parent-dir/-/find-parent-dir-0.3.0.tgz#33c44b429ab2b2f0646299c5f9f718f376ff8d54"
-  integrity sha1-M8RLQpqysvBkYpnF+fcY83b/jVQ=
-
 find-replace@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/find-replace/-/find-replace-3.0.0.tgz#3e7e23d3b05167a76f770c9fbd5258b0def68c38"
@@ -4994,15 +4984,10 @@ https-proxy-agent@^5.0.0:
     agent-base "6"
     debug "4"
 
-husky@^0.13.1:
-  version "0.13.4"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-0.13.4.tgz#48785c5028de3452a51c48c12c4f94b2124a1407"
-  integrity sha1-SHhcUCjeNFKlHEjBLE+UshJKFAc=
-  dependencies:
-    chalk "^1.1.3"
-    find-parent-dir "^0.3.0"
-    is-ci "^1.0.9"
-    normalize-path "^1.0.0"
+husky@8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-8.0.1.tgz#511cb3e57de3e3190514ae49ed50f6bc3f50b3e9"
+  integrity sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==
 
 iconv-lite-umd@0.6.8:
   version "0.6.8"
@@ -5262,13 +5247,6 @@ is-callable@^1.1.4, is-callable@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/is-callable/-/is-callable-1.2.2.tgz#c7c6715cd22d4ddb48d3e19970223aceabb080d9"
   integrity sha512-dnMqspv5nU3LoewK2N/y7KLtxtakvTuaCsU9FU50/QDmdbHNy/4/JuRtMHqRU22o3q+W89YQndQEeCVwK+3qrA==
-
-is-ci@^1.0.9:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/is-ci/-/is-ci-1.2.1.tgz#e3779c8ee17fccf428488f6e281187f2e632841c"
-  integrity sha512-s6tfsaQaQi3JNciBH6shVqEDvhGut0SUXr31ag8Pd8BBbVVlcGfWhpPmEOoM6RJ5TFhbypvf5yyRw/VXW1IiWg==
-  dependencies:
-    ci-info "^1.5.0"
 
 is-color-stop@^1.0.0:
   version "1.1.0"
@@ -6757,11 +6735,6 @@ normalize-package-data@^2.3.2:
     resolve "^1.10.0"
     semver "2 || 3 || 4 || 5"
     validate-npm-package-license "^3.0.1"
-
-normalize-path@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-1.0.0.tgz#32d0e472f91ff345701c15a8311018d3b0a90379"
-  integrity sha1-MtDkcvkf80VwHBWoMRAY07CpA3k=
 
 normalize-path@^2.0.1, normalize-path@^2.1.1:
   version "2.1.1"
