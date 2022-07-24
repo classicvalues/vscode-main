@@ -8,10 +8,10 @@
   dependencies:
     katex "^0.13.0"
 
-"@types/markdown-it@^0.0.0":
+"@types/markdown-it@0.0.0":
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/@types/markdown-it/-/markdown-it-0.0.0.tgz#8f6acaa5e3245e275f684e95deb3e518d1c6ab16"
-  integrity sha1-j2rKpeMkXidfaE6V3rPlGNHGqxY=
+  integrity sha512-rLEOTm6Wi9M8GFnIK7VczXSEThIN/eVoevpTYVk+FD/DPX3N15Sj9b3vkjjDY63U0Zw1yawf13CI92CCHpC5kw==
 
 argparse@^2.0.1:
   version "2.0.1"
@@ -42,7 +42,7 @@ linkify-it@^4.0.1:
   dependencies:
     uc.micro "^1.0.1"
 
-markdown-it-emoji@^2.0.0:
+markdown-it-emoji@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/markdown-it-emoji/-/markdown-it-emoji-2.0.0.tgz#3164ad4c009efd946e98274f7562ad611089a231"
   integrity sha512-39j7/9vP/CPCKbEI44oV8yoPJTpvfeReTn/COgRhSpNrjWF3PfP/JUxxB0hxV6ynOY8KH8Y8aX9NMDdo6z+6YQ==
