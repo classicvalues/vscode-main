@@ -33,7 +33,7 @@
     "@types/which": "^2.0.0"
   },
   "resolutions": {
-    "which-pm/load-yaml-file/**/argparse": "1.0.9"
+    "which-pm/load-yaml-file/**/argparse": "1.0.10"
   },
   "main": "./out/npmMain",
   "browser": "./dist/browser/npmBrowserMain",
