@@ -95,7 +95,7 @@
   },
   "devDependencies": {
     "@types/node": "^12.19.9",
-    "@types/which": "^2.0.0"
+    "@types/which": "2.0.1"
   },
   "repository": {
     "type": "git",
