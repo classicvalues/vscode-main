@@ -19,8 +19,8 @@
     "vscode-uri": "^3.0.2"
   },
   "devDependencies": {
-    "@types/mocha": "^8.2.0",
-    "@types/node": "^12.19.9"
+    "@types/mocha": "8.2.0",
+    "@types/node": "12.19.9"
   },
   "scripts": {
     "prepublishOnly": "npm run clean && npm run compile",
