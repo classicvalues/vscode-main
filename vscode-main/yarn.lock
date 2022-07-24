@@ -540,10 +540,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/gulp-postcss@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@types/gulp-postcss/-/gulp-postcss-8.0.0.tgz#f7e86d45e4999fd43e6d8c55b00504c88a67ad61"
-  integrity sha512-AVgjA03bpkYONKZpzuJviB9PzaNbDzrovYPbenj8/XxivUc35C/dIzJanyaQv7CFqfLLPLsqSalmtP3GLq6iag==
+"@types/gulp-postcss@8.0.2":
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/@types/gulp-postcss/-/gulp-postcss-8.0.2.tgz#6343f7034fd0b5ca239f277b8b67d8a8bcb3f86f"
+  integrity sha512-E9oU9e2wg6CJ1OxnSpfF/hWWMZyaAG+900xzfJzFqsrbSyFemeSMSeaxZJY1iLwHn7iagewy9/UKJAQh273N2Q==
   dependencies:
     "@types/node" "*"
     "@types/vinyl" "*"
@@ -2818,7 +2818,7 @@ debug@4:
   dependencies:
     ms "^2.1.1"
 
-debug@4.3.4:
+debug@4.3.4, debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -2836,13 +2836,6 @@ debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
   integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
-  dependencies:
-    ms "2.1.2"
-
-debug@^4.3.4:
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
-  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
   dependencies:
     ms "2.1.2"
 
