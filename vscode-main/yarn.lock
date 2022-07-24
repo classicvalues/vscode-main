@@ -10376,10 +10376,10 @@ windows-foreground-love@0.2.0:
   resolved "https://registry.yarnpkg.com/windows-foreground-love/-/windows-foreground-love-0.2.0.tgz#b291832d8a02a966bc046ba0e498cc789809076b"
   integrity sha512-72ZDshnt8Q3/ImLMt4wxsY8eVnUd1KDb5QfvZX09AxJJJa0hGdyzPfd/ms0pKSYYwKlEhB1ri+WDKNvdIpJknQ==
 
-windows-mutex@0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/windows-mutex/-/windows-mutex-0.3.0.tgz#2f51a0c97b3979c98952b23c086035f1f3715fab"
-  integrity sha512-IDWzyHOEpQr7m590pT90jMbCYNe525d7BgP6F80TjispEu2gWMvTIoSuO6Sy4atIEhvs3ys7DVlKdLzIAyRviQ==
+windows-mutex@0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/windows-mutex/-/windows-mutex-0.4.1.tgz#2eccdfc312e15e7f212fb16280f060fc6b5f00cd"
+  integrity sha512-RW1xN6yzw8hAcfy1BKVClhJZg/PzuNz4Qz+CNhYmmdzJiwKSU9CqvVcmAvNrtdinNkXfSqTZVBVh5kUATg6xOA==
   dependencies:
     bindings "^1.2.1"
     nan "^2.14.0"
