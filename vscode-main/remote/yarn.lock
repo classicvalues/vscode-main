@@ -217,7 +217,7 @@ graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
 
-http-proxy-agent@^2.1.0:
+http-proxy-agent@2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/http-proxy-agent/-/http-proxy-agent-2.1.0.tgz#e4821beef5b2142a2026bd73926fe537631c5405"
   integrity sha512-qwHbBLV7WviBl0rQsOzH6o5lwyOIvwp/BdFnvVxXORldu5TmjFfjzBcWUWS5kWAZhmv+JtiDhSuQCp4sBfbIgg==
@@ -314,7 +314,7 @@ jsonfile@^4.0.0:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-minimist@^1.2.6:
+minimist@1.2.6, minimist@^1.2.6:
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
   integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
@@ -475,7 +475,7 @@ vscode-oniguruma@1.3.1:
   resolved "https://registry.yarnpkg.com/vscode-oniguruma/-/vscode-oniguruma-1.3.1.tgz#e2383879c3485b19f533ec34efea9d7a2b14be8f"
   integrity sha512-gz6ZBofA7UXafVA+m2Yt2zHKgXC2qedArprIsHAPKByTkwq9l5y/izAGckqxYml7mSbYxTRTfdRwsFq3cwF4LQ==
 
-vscode-proxy-agent@^0.11.0:
+vscode-proxy-agent@0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/vscode-proxy-agent/-/vscode-proxy-agent-0.11.0.tgz#9dc8d2bb9d448f1e33bb1caef97a741289660f2f"
   integrity sha512-Y5mHjDGq/OKOvKG0IwCYfj25cvQ2cLEil8ce8n55IZHRAP9RF3e1sKU4ZUNDB8X2NIpKwyltrWpK9tFFE/kc3g==
@@ -490,12 +490,12 @@ vscode-proxy-agent@^0.11.0:
   optionalDependencies:
     vscode-windows-ca-certs "^0.3.0"
 
-vscode-regexpp@^3.1.0:
+vscode-regexpp@3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/vscode-regexpp/-/vscode-regexpp-3.1.0.tgz#42d059b6fffe99bd42939c0d013f632f0cad823f"
   integrity sha512-pqtN65VC1jRLawfluX4Y80MMG0DHJydWhe5ZwMHewZD6sys4LbU6lHwFAHxeuaVE6Y6+xZOtAw+9hvq7/0ejkg==
 
-vscode-ripgrep@^1.11.3:
+vscode-ripgrep@1.11.3:
   version "1.11.3"
   resolved "https://registry.yarnpkg.com/vscode-ripgrep/-/vscode-ripgrep-1.11.3.tgz#a997f4f4535dfeb9d775f04053c1247454d7a37a"
   integrity sha512-fdD+BciXiEO1iWTrV/S3sAthlK/tHRBjHF+aJIZDxUMD/q9wpNq+YPFEiLCrW+8epahfR19241DeVHHgX/I4Ww==
@@ -552,10 +552,10 @@ xterm@4.12.0-beta.26:
   resolved "https://registry.yarnpkg.com/xterm/-/xterm-4.12.0-beta.26.tgz#57c75b732808795398a66bc1a3e06d09eaff2ada"
   integrity sha512-yZB1kMBXQu2G0G1ch7TUi6f893iTZC+tmfjw/PQNZTmN46b4oX1l7rplc3sFcdrICHtmQ0Q5n1u0d6WUAdq1Kw==
 
-yauzl@^2.9.2:
+yauzl@2.10.0:
   version "2.10.0"
   resolved "https://registry.yarnpkg.com/yauzl/-/yauzl-2.10.0.tgz#c7eb17c93e112cb1086fa6d8e51fb0667b79a5f9"
-  integrity sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk=
+  integrity sha512-p4a9I6X6nu6IhoGmBqAcbJy1mlC4j27vEPZX9F4L4/vZT3Lyq1VkFHw/V/PUcB9Buo+DG3iHkT0x3Qya58zc3g==
   dependencies:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.1.0"

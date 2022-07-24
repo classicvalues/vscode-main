@@ -90,8 +90,8 @@
     "watch": "npx gulp watch-extension:php-language-features"
   },
   "dependencies": {
-    "vscode-nls": "^4.0.0",
-    "which": "^2.0.2"
+    "vscode-nls": "4.0.0",
+    "which": "2.0.2"
   },
   "devDependencies": {
     "@types/node": "^12.19.9",
