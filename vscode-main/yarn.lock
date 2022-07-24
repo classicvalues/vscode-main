@@ -2818,7 +2818,7 @@ debug@4:
   dependencies:
     ms "^2.1.1"
 
-debug@4.3.4:
+debug@4.3.4, debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -2836,13 +2836,6 @@ debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
   integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
-  dependencies:
-    ms "2.1.2"
-
-debug@^4.3.4:
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
-  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
   dependencies:
     ms "2.1.2"
 
@@ -4811,6 +4804,19 @@ gulp-untar@0.0.8:
     tar "^2.2.1"
     through2 "~2.0.3"
     vinyl "^1.2.0"
+
+gulp-vinyl-zip@2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/gulp-vinyl-zip/-/gulp-vinyl-zip-2.5.0.tgz#73eef9c067b8775b1ad07a34a41384e1c7b0041a"
+  integrity sha512-KPi5/2SUmkXXDvKU4L2U1dkPOP03SbhONTOgNZlL23l9Yopt+euJ1bBXwWrSMbsyh3JLW/TYuC8CI4c4Kq4qrw==
+  dependencies:
+    queue "^4.2.1"
+    through "^2.3.8"
+    through2 "^2.0.3"
+    vinyl "^2.0.2"
+    vinyl-fs "^3.0.3"
+    yauzl "^2.2.1"
+    yazl "^2.2.1"
 
 gulp-vinyl-zip@^2.1.2:
   version "2.1.2"
