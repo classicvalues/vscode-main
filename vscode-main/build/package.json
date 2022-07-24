@@ -9,7 +9,7 @@
     "@types/azure": "0.9.19",
     "@types/byline": "^4.2.33",
     "@types/debounce": "^1.0.0",
-    "@types/eslint": "4.16.1",
+    "@types/eslint": "4.16.8",
     "@types/fancy-log": "2.0.0",
     "@types/glob": "^7.1.1",
     "@types/gulp": "4.0.9",
