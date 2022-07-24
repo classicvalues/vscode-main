@@ -33,7 +33,7 @@
     "@types/through": "^0.0.29",
     "@types/through2": "^2.0.34",
     "@types/underscore": "1.11.4",
-    "@types/xml2js": "0.0.33",
+    "@types/xml2js": "0.4.11",
     "@typescript-eslint/experimental-utils": "2.34.0",
     "@typescript-eslint/parser": "^3.3.0",
     "applicationinsights": "1.0.8",
