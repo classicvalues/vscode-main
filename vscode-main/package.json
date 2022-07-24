@@ -64,7 +64,7 @@
     "chokidar": "3.5.1",
     "graceful-fs": "4.2.3",
     "http-proxy-agent": "^2.1.0",
-    "https-proxy-agent": "^2.2.3",
+    "https-proxy-agent": "5.0.1",
     "iconv-lite-umd": "0.6.8",
     "jschardet": "3.0.0",
     "keytar": "7.2.0",
