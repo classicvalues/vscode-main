@@ -447,7 +447,7 @@
     "@types/node": "^12.19.9"
   },
   "dependencies": {
-    "@emmetio/abbreviation": "^2.2.0",
+    "@emmetio/abbreviation": "2.2.3",
     "@emmetio/css-parser": "ramya-rao-a/css-parser#vscode",
     "@emmetio/html-matcher": "^0.3.3",
     "@emmetio/math-expression": "^1.0.4",
