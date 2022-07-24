@@ -30,15 +30,15 @@
     "@emmetio/stream-reader" "^2.2.0"
     "@emmetio/stream-reader-utils" "^0.1.0"
 
-"@emmetio/html-matcher@^0.3.3":
+"@emmetio/html-matcher@0.3.3":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@emmetio/html-matcher/-/html-matcher-0.3.3.tgz#0bbdadc0882e185950f03737dc6dbf8f7bd90728"
-  integrity sha1-C72twIguGFlQ8Dc33G2/j3vZByg=
+  integrity sha512-+aeGmFXoR36nk2qzqPhBnWjnB38BV+dreTh/tsfbWP9kHv7fqRa9XuG1BSQFbPtKzsjUsBvGXkgGU3G8MkMw6A==
   dependencies:
     "@emmetio/stream-reader" "^2.0.0"
     "@emmetio/stream-reader-utils" "^0.1.0"
 
-"@emmetio/math-expression@^1.0.4":
+"@emmetio/math-expression@1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@emmetio/math-expression/-/math-expression-1.0.4.tgz#cb657ed944f82b3728f863bf5ece1b1ff3ae7497"
   integrity sha512-1m7y8/VeXCAfgFoPGTerbqCIadApcIINujd3TaM/LRLPPKiod8aT1PPmh542spnsUSsSnZJjbuF7xiO4WFA42g==
@@ -97,7 +97,7 @@ queue@6.0.2:
   dependencies:
     inherits "~2.0.3"
 
-vscode-emmet-helper@^2.3.0:
+vscode-emmet-helper@2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/vscode-emmet-helper/-/vscode-emmet-helper-2.6.2.tgz#777b471a7851ba0ca8e4151533be7f92511f39b0"
   integrity sha512-SkL1WjZZsA+bfTo52QH4PgqXCQAJSqzOmJtAY3rOl17MKbY6iJhVv2T26PshjmUnHoXnXMNa7PcLMCS75RsQDQ==
@@ -109,7 +109,7 @@ vscode-emmet-helper@^2.3.0:
     vscode-nls "^5.0.0"
     vscode-uri "^2.1.2"
 
-vscode-languageserver-textdocument@^1.0.1:
+vscode-languageserver-textdocument@1.0.1, vscode-languageserver-textdocument@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.1.tgz#178168e87efad6171b372add1dea34f53e5d330f"
   integrity sha512-UIcJDjX7IFkck7cSkNNyzIz5FyvpQfY7sdzVy+wkKN/BLaD4DQ0ppXQrKePomCxTS7RrolK1I0pey0bG9eh8dA==
