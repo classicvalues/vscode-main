@@ -27,7 +27,7 @@
   ],
   "main": "./out/extension",
   "devDependencies": {
-    "@types/node": "^12.19.9"
+    "@types/node": "12.19.16"
   },
   "contributes": {
     "resourceLabelFormatters": [
