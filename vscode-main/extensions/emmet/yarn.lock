@@ -97,10 +97,10 @@ queue@6.0.2:
   dependencies:
     inherits "~2.0.3"
 
-vscode-emmet-helper@^2.3.0:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/vscode-emmet-helper/-/vscode-emmet-helper-2.6.2.tgz#777b471a7851ba0ca8e4151533be7f92511f39b0"
-  integrity sha512-SkL1WjZZsA+bfTo52QH4PgqXCQAJSqzOmJtAY3rOl17MKbY6iJhVv2T26PshjmUnHoXnXMNa7PcLMCS75RsQDQ==
+vscode-emmet-helper@2.6.4:
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/vscode-emmet-helper/-/vscode-emmet-helper-2.6.4.tgz#bea47f17649bba26b412f3d1fac18aaee43eba25"
+  integrity sha512-fP0nunW1RUWEKGf4gqiYLOVNFFGXSRHjCl0pikxtwCFlty8WwimM+RBJ5o0aIiwerrYD30HqeaVyvDW027Sseg==
   dependencies:
     emmet "^2.3.0"
     jsonc-parser "^2.3.0"
