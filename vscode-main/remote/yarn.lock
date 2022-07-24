@@ -368,10 +368,10 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
-nsfw@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/nsfw/-/nsfw-2.1.2.tgz#4fa841e7f7122b60b2e1f61187d1b57ad3403428"
-  integrity sha512-zGPdt32aJ5b1laK9rvgXQmXGAagrx3VkcMt0JePtu6wBfzC1o4xLCM3kq7FxZxUnxyxYhODyBYzpt3H16FhaGA==
+nsfw@2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/nsfw/-/nsfw-2.2.2.tgz#9fc64a0ca4bc38e180dd74935e0f295913e2153f"
+  integrity sha512-a2xt1Nx8Sz+E8eA5Ehgb3UONlrk1s5TpeoVh1XiqS0AI0wI94B7x4qoh6C11rNNX4fPOc3iC/wh4mcY9GWOgOQ==
   dependencies:
     node-addon-api "*"
 
