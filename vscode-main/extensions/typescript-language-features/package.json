@@ -31,7 +31,7 @@
     "jsonc-parser": "^2.2.1",
     "semver": "7.3.7",
     "typescript-vscode-sh-plugin": "^0.7.3",
-    "vscode-extension-telemetry": "0.1.7",
+    "vscode-extension-telemetry": "0.4.5",
     "vscode-nls": "^4.1.1"
   },
   "devDependencies": {
