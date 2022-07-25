@@ -2377,7 +2377,7 @@
     "iconv-lite-umd": "0.6.8",
     "jschardet": "3.0.0",
     "vscode-extension-telemetry": "0.1.7",
-    "vscode-nls": "^4.0.0",
+    "vscode-nls": "4.1.2",
     "vscode-uri": "3.0.3",
     "which": "2.0.2"
   },
