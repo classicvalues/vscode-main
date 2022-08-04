@@ -6,7 +6,7 @@
   "version": "1.0.1",
   "license": "MIT",
   "engines": {
-    "vscode": "0.10.x"
+    "vscode": "1.70.x"
   },
   "enableProposedApi": true,
   "icon": "images/npm_icon.png",
