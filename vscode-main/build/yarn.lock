@@ -136,10 +136,10 @@
   dependencies:
     ansi-colors "*"
 
-"@types/azure@0.9.19":
-  version "0.9.19"
-  resolved "https://registry.yarnpkg.com/@types/azure/-/azure-0.9.19.tgz#1a6a9bd856b437ddecf3f9fc8407a683c869ba02"
-  integrity sha1-Gmqb2Fa0N93s8/n8hAemg8hpugI=
+"@types/azure@0.9.20":
+  version "0.9.20"
+  resolved "https://registry.yarnpkg.com/@types/azure/-/azure-0.9.20.tgz#ce00ed2546c5dc5c63489162c804a2f773b95cfa"
+  integrity sha512-5+YeTSAruOEjCtmRJlqnhUTJtA4+kjPhOwUUT6Eo4O3MDQIlGzGwJw70umHgaSw0hZoWIB2g/iCRXtmesn9F2w==
   dependencies:
     "@types/node" "*"
 
