@@ -360,7 +360,7 @@
   "devDependencies": {
     "@types/highlight.js": "10.1.0",
     "@types/lodash.throttle": "4.1.7",
-    "@types/markdown-it": "0.0.2",
+    "@types/markdown-it": "12.2.3",
     "@types/node": "^12.19.9",
     "lodash.throttle": "^4.1.1"
   },
