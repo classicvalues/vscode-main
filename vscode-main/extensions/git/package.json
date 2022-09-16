@@ -2382,7 +2382,7 @@
     "which": "2.0.2"
   },
   "devDependencies": {
-    "@types/byline": "4.2.31",
+    "@types/byline": "4.2.33",
     "@types/file-type": "10.6.0",
     "@types/mocha": "^8.2.0",
     "@types/node": "^12.19.9",
