@@ -42,7 +42,7 @@
     "@iktakahiro/markdown-it-katex": "https://github.com/mjbvz/markdown-it-katex.git",
     "@types/markdown-it": "12.2.3",
     "markdown-it": "13.0.1",
-    "markdown-it-emoji": "^2.0.0"
+    "markdown-it-emoji": "2.0.2"
   },
   "repository": {
     "type": "git",
