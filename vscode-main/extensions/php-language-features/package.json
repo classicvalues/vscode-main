@@ -91,7 +91,7 @@
   },
   "dependencies": {
     "vscode-nls": "5.0.1",
-    "which": "^2.0.2"
+    "which": "2.0.2"
   },
   "devDependencies": {
     "@types/node": "^12.19.9",
