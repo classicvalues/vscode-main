@@ -7,7 +7,7 @@
   "license": "MIT",
   "icon": "icons/logo.png",
   "engines": {
-    "vscode": "1.70.x"
+    "vscode": "1.72.x"
   },
   "enableProposedApi": true,
   "activationEvents": [
