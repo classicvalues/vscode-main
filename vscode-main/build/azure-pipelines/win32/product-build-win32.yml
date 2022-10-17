@@ -202,7 +202,7 @@ steps:
     continueOnError: true
     condition: failed()
 
-  - task: PublishTestResults@2
+  - task: PublishTestResults@2.210.0
     displayName: Publish Tests Results
     inputs:
       testResultsFiles: "*-results.xml"
