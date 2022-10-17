@@ -6,7 +6,7 @@
   "version": "1.0.1",
   "license": "MIT",
   "engines": {
-    "vscode": "0.10.x"
+    "vscode": "1.72.x"
   },
   "enableProposedApi": true,
   "icon": "images/npm_icon.png",
@@ -18,22 +18,22 @@
     "watch": "gulp watch-extension:npm"
   },
   "dependencies": {
-    "find-up": "^4.1.0",
-    "find-yarn-workspace-root": "^2.0.0",
-    "jsonc-parser": "^2.2.1",
-    "minimatch": "^3.0.4",
-    "request-light": "^0.4.0",
-    "vscode-nls": "^4.1.1",
-    "which": "^2.0.2",
-    "which-pm": "^2.0.0"
+    "find-up": "6.3.0",
+    "find-yarn-workspace-root": "2.0.0",
+    "jsonc-parser": "2.2.1",
+    "minimatch": "5.1.0",
+    "request-light": "0.4.0",
+    "vscode-nls": "5.0.1",
+    "which": "2.0.2",
+    "which-pm": "2.0.0"
   },
   "devDependencies": {
     "@types/minimatch": "^3.0.3",
     "@types/node": "^12.19.9",
-    "@types/which": "^2.0.0"
+    "@types/which": "2.0.1"
   },
   "resolutions": {
-    "which-pm/load-yaml-file/**/argparse": "1.0.9"
+    "which-pm/load-yaml-file/**/argparse": "2.0.1"
   },
   "main": "./out/npmMain",
   "browser": "./dist/browser/npmBrowserMain",
