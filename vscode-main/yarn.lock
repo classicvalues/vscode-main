@@ -628,10 +628,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.37.tgz#a3dd8da4eb84a996c36e331df98d82abd76b516e"
   integrity sha512-XYmBiy+ohOR4Lh5jE379fV2IU+6Jn4g5qASinhitfyO71b/sCo6MKsMLF5tc7Zf2CE8hViVQyYSobJNke8OvUw==
 
-"@types/node@14.18.29":
-  version "14.18.29"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.29.tgz#a0c58d67a42f8953c13d32f0acda47ed26dfce40"
-  integrity sha512-LhF+9fbIX4iPzhsRLpK5H7iPdvW8L4IwGciXQIOEcuF62+9nw/VQVsOViAOOGxY3OlOKGLFv0sWwJXdwQeTn6A==
+"@types/node@14.18.32":
+  version "14.18.32"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.32.tgz#8074f7106731f1a12ba993fe8bad86ee73905014"
+  integrity sha512-Y6S38pFr04yb13qqHf8uk1nHE3lXgQ30WZbv1mLliV9pt0NjvqdWttLcrOYLnXbOafknVYRHZGoMSpR9UwfYow==
 
 "@types/node@^10.11.7":
   version "10.12.21"
@@ -732,10 +732,10 @@
     "@types/webpack-sources" "*"
     source-map "^0.6.0"
 
-"@types/webpack@4.41.32":
-  version "4.41.32"
-  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.32.tgz#a7bab03b72904070162b2f169415492209e94212"
-  integrity sha512-cb+0ioil/7oz5//7tZUSwbrSAN/NWHrQylz5cW8G0dWTcF/g+/dSdMlKVZspBYuMAN1+WnwHrkxiRrLcwd0Heg==
+"@types/webpack@4.41.33":
+  version "4.41.33"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.33.tgz#16164845a5be6a306bcbe554a8e67f9cac215ffc"
+  integrity sha512-PPajH64Ft2vWevkerISMtnZ8rTs4YmRbs+23c402J0INmxDKCrhZNvwZYtzx96gY2wAtXdrK1BS2fiC8MlLr3g==
   dependencies:
     "@types/node" "*"
     "@types/tapable" "^1"
@@ -3192,10 +3192,10 @@ electron-to-chromium@^1.4.172:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.184.tgz#381d4d111fc82d3376ed690dfb621e675f9078a9"
   integrity sha512-IADi390FRdvxWfVX3hjzfTDNVHiTqVo9ar53/7em/SfhUG9YcjVhyQecY/XwmBHRKden/wFud7RWOUH7+7LFng==
 
-electron@20.0.1:
-  version "20.0.1"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-20.0.1.tgz#eaaa14a7b54b6c405b1768727be4c55976a95419"
-  integrity sha512-5c7zr8oy1JsCV86BaoIPVLo4yevDfvPEsMQcGlgfJ5PS7ouAVvR1aHt0tjF65bL1vYdoQ1olvpextg2T8FyICA==
+electron@20.3.2:
+  version "20.3.2"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-20.3.2.tgz#d1582a89520bb06fbb3862f93e0b2c22c40c47cc"
+  integrity sha512-px5/bcxsHbyByIB+kQKi3goPMXA/oVEojqP7gJ+6NxESNNYWYUR4FfzBjxTJ7I8X/Cn0BuAAWKKrCQKqJRHPQQ==
   dependencies:
     "@electron/get" "^1.14.1"
     "@types/node" "^16.11.26"
@@ -6428,7 +6428,12 @@ minimatch@5.0.1:
   dependencies:
     brace-expansion "^2.0.1"
 
-minimist@1.2.6, minimist@^1.2.0, minimist@^1.2.3, minimist@^1.2.5, minimist@^1.2.6:
+minimist@1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
+  integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
+
+minimist@^1.2.0, minimist@^1.2.3, minimist@^1.2.5, minimist@^1.2.6:
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
   integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
@@ -6522,10 +6527,10 @@ mkdirp@^1.0.3, mkdirp@^1.0.4:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
-mocha-junit-reporter@2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/mocha-junit-reporter/-/mocha-junit-reporter-2.0.2.tgz#d521689b651dc52f52044739f8ffb368be415731"
-  integrity sha512-vYwWq5hh3v1lG0gdQCBxwNipBfvDiAM1PHroQRNp96+2l72e9wEUTw+mzoK+O0SudgfQ7WvTQZ9Nh3qkAYAjfg==
+mocha-junit-reporter@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/mocha-junit-reporter/-/mocha-junit-reporter-2.1.0.tgz#7997348c2e757686c54e42b3756930b55a4518a4"
+  integrity sha512-Zhz1J+XqJUaAOuSFtHgi2+b+W3rP1SZtaU3HHNNp1iEKMSeoC1/EQUVkGknkLNOBxJhXJ4xLgOr8TbYAZOkUIw==
   dependencies:
     debug "^2.2.0"
     md5 "^2.1.0"
@@ -6727,10 +6732,15 @@ node-abi@^2.21.0:
   dependencies:
     semver "^5.4.1"
 
-node-addon-api@*, node-addon-api@^3.0.0, node-addon-api@^3.0.2:
+node-addon-api@^3.0.0, node-addon-api@^3.0.2:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-3.1.0.tgz#98b21931557466c6729e51cb77cd39c965f42239"
   integrity sha512-flmrDNB06LIl5lywUz7YlNGZH/5p0M7W28k8hzd9Lshtdh1wshD2Y+U4h9LD6KObOy1f+fEVdgprPrEymjM5uw==
+
+node-addon-api@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-5.0.0.tgz#7d7e6f9ef89043befdb20c1989c905ebde18c501"
+  integrity sha512-CvkDw2OEnme7ybCykJpVcKH+uAOLV2qLqiyla128dN9TkEWfrYmxG6C2boDe5KcNQqZF3orkqzGgOMvZ/JNekA==
 
 node-fetch@^2.6.1:
   version "2.6.7"
@@ -6878,12 +6888,12 @@ npmlog@^4.0.1:
     gauge "~2.7.3"
     set-blocking "~2.0.0"
 
-nsfw@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/nsfw/-/nsfw-2.2.2.tgz#9fc64a0ca4bc38e180dd74935e0f295913e2153f"
-  integrity sha512-a2xt1Nx8Sz+E8eA5Ehgb3UONlrk1s5TpeoVh1XiqS0AI0wI94B7x4qoh6C11rNNX4fPOc3iC/wh4mcY9GWOgOQ==
+nsfw@2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/nsfw/-/nsfw-2.2.3.tgz#2ffaebfa6d87195d3a9bdd932cbf1f3ee7b9f985"
+  integrity sha512-b4r7VcFLMN9L6tMH38L/J7y1y8zu5UzFJyC47Dnae3QmCWIGuwhvOvFjuCtqvMsguomu5/pqM6rMKiUy4l3pYA==
   dependencies:
-    node-addon-api "*"
+    node-addon-api "^5.0.0"
 
 nth-check@^1.0.2:
   version "1.0.2"
@@ -8730,10 +8740,10 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-sinon@14.0.0:
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/sinon/-/sinon-14.0.0.tgz#203731c116d3a2d58dc4e3cbe1f443ba9382a031"
-  integrity sha512-ugA6BFmE+WrJdh0owRZHToLd32Uw3Lxq6E6LtNRU+xTVBefx632h03Q7apXWRsRdZAJ41LB8aUfn2+O4jsDNMw==
+sinon@14.0.1:
+  version "14.0.1"
+  resolved "https://registry.yarnpkg.com/sinon/-/sinon-14.0.1.tgz#9f02e13ad86b695c0c554525e3bf7f8245b31a9c"
+  integrity sha512-JhJ0jCiyBWVAHDS+YSjgEbDn7Wgz9iIjA1/RK+eseJN0vAAWIWiXBdrnb92ELPyjsfreCYntD1ORtLSfIrlvSQ==
   dependencies:
     "@sinonjs/commons" "^1.8.3"
     "@sinonjs/fake-timers" "^9.1.2"
@@ -9612,10 +9622,10 @@ tree-kill@^1.2.2:
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
   integrity sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
 
-ts-loader@9.3.1:
-  version "9.3.1"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-9.3.1.tgz#fe25cca56e3e71c1087fe48dc67f4df8c59b22d4"
-  integrity sha512-OkyShkcZTsTwyS3Kt7a4rsT/t2qvEVQuKCTg4LJmpj9fhFR7ukGdZwV6Qq3tRUkqcXtfGpPR7+hFKHCG/0d3Lw==
+ts-loader@9.4.1:
+  version "9.4.1"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-9.4.1.tgz#b6f3d82db0eac5a8295994f8cb5e4940ff6b1060"
+  integrity sha512-384TYAqGs70rn9F0VBnh6BPTfhga7yFNdC5gXbQpDrBj9/KsT4iRkGqKXhziofHOlE2j6YEaiTYVGKKvPhGWvw==
   dependencies:
     chalk "^4.1.0"
     enhanced-resolve "^5.0.0"
@@ -9727,10 +9737,10 @@ typescript-formatter@7.2.2:
     commandpost "^1.0.0"
     editorconfig "^0.15.0"
 
-typescript@4.8.3:
-  version "4.8.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.8.3.tgz#d59344522c4bc464a65a730ac695007fdb66dd88"
-  integrity sha512-goMHfm00nWPa8UvR/CPSvykqf6dVV8x/dp0c5mFTMTIu0u0FlGWRioyy7Nn0PGAdHxpJZnuO/ut+PpQ8UiHAig==
+typescript@4.8.4:
+  version "4.8.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.8.4.tgz#c464abca159669597be5f96b8943500b238e60e6"
+  integrity sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==
 
 typescript@^4.5.4:
   version "4.7.4"
@@ -10112,10 +10122,10 @@ vscode-debugprotocol@1.51.0:
   resolved "https://registry.yarnpkg.com/vscode-debugprotocol/-/vscode-debugprotocol-1.51.0.tgz#c03168dac778b6c24ce17b3511cb61e89c11b2df"
   integrity sha512-dzKWTMMyebIMPF1VYMuuQj7gGFq7guR8AFya0mKacu+ayptJfaRuM0mdHCqiOth4FnRP8mPhEroFPx6Ift8wHA==
 
-vscode-nls-dev@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/vscode-nls-dev/-/vscode-nls-dev-4.0.0.tgz#2da842826d2b02ac575590ba4e7a9308d9def19a"
-  integrity sha512-2JcEOy1EQKcF8JhtYfFdwAkzxFKrB2ZbHoQwKkzEFOc/RlLAPqO3laBvO2wK4k6G4XUCno/XLQjuDM33/+baRg==
+vscode-nls-dev@4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/vscode-nls-dev/-/vscode-nls-dev-4.0.3.tgz#e55e8a7bd35c719454af17c0c5c3516ff2971d15"
+  integrity sha512-Y+wUSLwmBwLD8uN+6hBbR4MICuURQ1DoW5k3Z34kPyDlr9ZRQxCPIWaK64IFzPpjloMbb0ORIHkpI8qjMd4L8w==
   dependencies:
     ansi-colors "^4.1.1"
     clone "^2.1.2"
@@ -10187,10 +10197,10 @@ vscode-telemetry-extractor@^1.7.0:
     ts-morph "^10.0.2"
     vscode-ripgrep "^1.11.2"
 
-vscode-textmate@7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/vscode-textmate/-/vscode-textmate-7.0.1.tgz#8118a32b02735dccd14f893b495fa5389ad7de79"
-  integrity sha512-zQ5U/nuXAAMsh691FtV0wPz89nSkHbs+IQV8FDk+wew9BlSDhf4UmWGlWJfTR2Ti6xZv87Tj5fENzKf6Qk7aLw==
+vscode-textmate@7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/vscode-textmate/-/vscode-textmate-7.0.3.tgz#71e29c3de01b878ab50927791e335d0e035b5240"
+  integrity sha512-OkE/mYm1h5ZX9IEKeKR/2zKDt2SzYyIfTEOVFX4QhA+B3BPROvNEmDDXvBThz3qknKO3Cy/VVb8/sx1UlqP/Xw==
 
 vscode-windows-ca-certs@^0.3.0:
   version "0.3.0"
