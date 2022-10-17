@@ -53,9 +53,9 @@
     "@types/uuid": "8.3.4"
   },
   "dependencies": {
-    "buffer": "5.7.1",
-    "node-fetch": "3.2.10",
-    "randombytes": "github:rmacfarlane/randombytes#f18ded32b209f0d4c637608a11ae042ae96b4c2e",
+    "buffer": "6.0.3",
+    "node-fetch": "3.2.0",
+    "randombytes": "github:rmacfarlane/randombytes#b28d4ecee46262801ea09f15fa1f1513a05c5971",
     "sha.js": "2.4.11",
     "stream": "0.0.2",
     "uuid": "8.3.2",
