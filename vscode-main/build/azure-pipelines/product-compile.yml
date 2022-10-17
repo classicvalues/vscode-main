@@ -36,7 +36,7 @@ steps:
     displayName: Prepare yarn cache flags
 
   # using `genericNodeModules` instead of `nodeModules` here to avoid sharing the cache with builds running inside containers
-  - task: Cache@2
+  - task: Cache@2.198.0
     inputs:
       key: 'genericNodeModules | $(Agent.OS) | .build/yarnlockhash'
       path: .build/node_modules_cache
