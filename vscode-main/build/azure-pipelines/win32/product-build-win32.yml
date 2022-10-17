@@ -51,7 +51,7 @@ steps:
       node build/azure-pipelines/common/computeNodeModulesCacheKey.js > .build/yarnlockhash
     displayName: Prepare yarn cache flags
 
-  - task: Cache@2
+  - task: Cache@2.198.0
     inputs:
       key: 'nodeModules | $(Agent.OS) | .build/arch, .build/terrapin, .build/yarnlockhash'
       path: .build/node_modules_cache
