@@ -13,7 +13,7 @@ steps:
       azureSubscription: "vscode-builds-subscription"
       KeyVaultName: vscode
 
-  - task: DownloadPipelineArtifact@0
+  - task: DownloadPipelineArtifact@0.151.0
     displayName: "Download Pipeline Artifact"
     inputs:
       artifactName: snap-$(VSCODE_ARCH)
