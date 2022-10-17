@@ -184,7 +184,7 @@ steps:
     timeoutInMinutes: 7
     condition: and(succeeded(), eq(variables['VSCODE_ARCH'], 'x64'), eq(variables['VSCODE_STEP_ON_IT'], 'false'))
 
-  - task: PublishPipelineArtifact@0
+  - task: PublishPipelineArtifact@0.151.0
     inputs:
       artifactName: "crash-dump-linux-$(VSCODE_ARCH)"
       targetPath: .build/crashes
@@ -269,7 +269,7 @@ steps:
     displayName: Publish web server archive
     condition: and(succeeded(), ne(variables['VSCODE_PUBLISH'], 'false'))
 
-  - task: PublishPipelineArtifact@0
+  - task: PublishPipelineArtifact@0.151.0
     displayName: "Publish Pipeline Artifact"
     inputs:
       artifactName: "snap-$(VSCODE_ARCH)"
