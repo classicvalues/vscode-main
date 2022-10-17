@@ -194,7 +194,7 @@ steps:
     timeoutInMinutes: 7
     condition: and(succeeded(), eq(variables['VSCODE_STEP_ON_IT'], 'false'), ne(variables['VSCODE_ARCH'], 'arm64'))
 
-  - task: PublishPipelineArtifact@0
+  - task: PublishPipelineArtifact@0.151.0
     inputs:
       artifactName: crash-dump-windows-$(VSCODE_ARCH)
       targetPath: .build\crashes
