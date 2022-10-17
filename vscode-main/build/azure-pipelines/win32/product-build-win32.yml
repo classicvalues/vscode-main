@@ -281,7 +281,7 @@ steps:
       ESRP: "ESRP CodeSign"
     condition: and(succeeded(), ne(variables['VSCODE_PUBLISH'], 'false'))
 
-  - task: PowerShell@2
+  - task: PowerShell@2.210.0
     inputs:
       targetType: filePath
       filePath: .\build\azure-pipelines\win32\import-esrp-auth-cert.ps1
