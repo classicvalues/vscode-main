@@ -29,13 +29,13 @@
   ],
   "dependencies": {
     "jsonc-parser": "2.3.1",
-    "semver": "7.3.7",
+    "semver": "7.3.8",
     "typescript-vscode-sh-plugin": "0.7.3",
     "vscode-extension-telemetry": "0.1.7",
     "vscode-nls": "5.0.1"
   },
   "devDependencies": {
-    "@types/node": "^12.19.9",
+    "@types/node": "12.20.55",
     "@types/semver": "^5.5.0"
   },
   "scripts": {
