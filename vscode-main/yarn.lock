@@ -10112,10 +10112,10 @@ vscode-debugprotocol@1.51.0:
   resolved "https://registry.yarnpkg.com/vscode-debugprotocol/-/vscode-debugprotocol-1.51.0.tgz#c03168dac778b6c24ce17b3511cb61e89c11b2df"
   integrity sha512-dzKWTMMyebIMPF1VYMuuQj7gGFq7guR8AFya0mKacu+ayptJfaRuM0mdHCqiOth4FnRP8mPhEroFPx6Ift8wHA==
 
-vscode-nls-dev@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/vscode-nls-dev/-/vscode-nls-dev-4.0.0.tgz#2da842826d2b02ac575590ba4e7a9308d9def19a"
-  integrity sha512-2JcEOy1EQKcF8JhtYfFdwAkzxFKrB2ZbHoQwKkzEFOc/RlLAPqO3laBvO2wK4k6G4XUCno/XLQjuDM33/+baRg==
+vscode-nls-dev@4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/vscode-nls-dev/-/vscode-nls-dev-4.0.3.tgz#e55e8a7bd35c719454af17c0c5c3516ff2971d15"
+  integrity sha512-Y+wUSLwmBwLD8uN+6hBbR4MICuURQ1DoW5k3Z34kPyDlr9ZRQxCPIWaK64IFzPpjloMbb0ORIHkpI8qjMd4L8w==
   dependencies:
     ansi-colors "^4.1.1"
     clone "^2.1.2"
