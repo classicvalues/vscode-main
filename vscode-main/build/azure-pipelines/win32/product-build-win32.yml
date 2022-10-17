@@ -7,7 +7,7 @@ steps:
     inputs:
       versionSpec: "1.x"
 
-  - task: UsePythonVersion@0
+  - task: UsePythonVersion@0.206.0
     inputs:
       versionSpec: "2.x"
       addToPath: true
