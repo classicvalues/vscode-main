@@ -490,10 +490,10 @@ vscode-windows-ca-certs@^0.3.0:
   dependencies:
     node-addon-api "^3.0.2"
 
-vscode-windows-registry@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/vscode-windows-registry/-/vscode-windows-registry-1.0.2.tgz#b863e704a6a69c50b3098a55fbddbe595b0c124a"
-  integrity sha512-/CLLvuOSM2Vme2z6aNyB+4Omd7hDxpf4Thrt8ImxnXeQtxzel2bClJpFQvQqK/s4oaXlkBKS7LqVLeZM+uSVIA==
+vscode-windows-registry@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vscode-windows-registry/-/vscode-windows-registry-1.0.4.tgz#9e565a497c84b6b82d200f88930baeff12912079"
+  integrity sha512-vjYaMzEygZrb8bN6I33XTajpF/gtDOk5CtQPPSaxanXg2kkrerEM9qovY6t6FtBGl3oLq6YHytYdYw4IpXgJdA==
 
 windows-process-tree@0.3.4:
   version "0.3.4"
