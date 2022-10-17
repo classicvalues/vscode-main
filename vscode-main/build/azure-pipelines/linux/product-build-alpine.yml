@@ -24,7 +24,7 @@ steps:
       tar -xzf $(Build.ArtifactStagingDirectory)/compilation.tar.gz
     displayName: Extract compilation output
 
-  - task: Docker@1
+  - task: Docker@1.210.0
     displayName: "Pull image"
     inputs:
       azureSubscriptionEndpoint: "vscode-builds-subscription"
