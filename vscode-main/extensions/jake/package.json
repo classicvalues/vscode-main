@@ -17,10 +17,10 @@
     "watch": "gulp watch-extension:jake"
   },
   "dependencies": {
-    "vscode-nls": "^4.0.0"
+    "vscode-nls": "5.0.1"
   },
   "devDependencies": {
-    "@types/node": "^12.19.9"
+    "@types/node": "12.20.55"
   },
   "main": "./out/main",
   "activationEvents": [
