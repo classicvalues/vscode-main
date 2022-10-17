@@ -265,7 +265,7 @@ steps:
       SessionTimeout: 120
     condition: and(succeeded(), ne(variables['VSCODE_PUBLISH'], 'false'))
 
-  - task: NuGetCommand@2
+  - task: NuGetCommand@2.211.0
     displayName: Install ESRPClient.exe
     inputs:
       restoreSolution: 'build\azure-pipelines\win32\ESRPClient\packages.config'
