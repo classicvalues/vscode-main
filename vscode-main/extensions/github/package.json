@@ -70,7 +70,7 @@
     "vscode-nls": "5.0.1"
   },
   "devDependencies": {
-    "@types/node": "^12.19.9"
+    "@types/node": "12.19.16"
   },
   "repository": {
     "type": "git",
