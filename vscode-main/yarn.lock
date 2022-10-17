@@ -5073,10 +5073,10 @@ husky@8.0.1:
   resolved "https://registry.yarnpkg.com/husky/-/husky-8.0.1.tgz#511cb3e57de3e3190514ae49ed50f6bc3f50b3e9"
   integrity sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==
 
-iconv-lite-umd@0.6.8:
-  version "0.6.8"
-  resolved "https://registry.yarnpkg.com/iconv-lite-umd/-/iconv-lite-umd-0.6.8.tgz#5ad310ec126b260621471a2d586f7f37b9958ec0"
-  integrity sha512-zvXJ5gSwMC9JD3wDzH8CoZGc1pbiJn12Tqjk8BXYCnYz3hYL5GRjHW8LEykjXhV9WgNGI4rgpgHcbIiBfrRq6A==
+iconv-lite-umd@0.6.10:
+  version "0.6.10"
+  resolved "https://registry.yarnpkg.com/iconv-lite-umd/-/iconv-lite-umd-0.6.10.tgz#faec47521e095b8e3a7175ae08e1b4ae0359a735"
+  integrity sha512-8NtgTa/m1jVq7vdywmD5+SqIlZsB59wtsjaylQuExyCojMq1tHVQxmHjeqVSYwKwnmQbH4mZ1Dxx1eqDkPgaqA==
 
 iconv-lite@^0.4.24:
   version "0.4.24"
