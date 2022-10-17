@@ -361,7 +361,7 @@
     "@types/highlight.js": "10.1.0",
     "@types/lodash.throttle": "4.1.7",
     "@types/markdown-it": "12.2.3",
-    "@types/node": "^12.19.9",
+    "@types/node": "12.20.55",
     "lodash.throttle": "^4.1.1"
   },
   "repository": {
