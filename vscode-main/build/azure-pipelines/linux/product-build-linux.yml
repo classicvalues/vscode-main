@@ -213,7 +213,7 @@ steps:
     condition: and(succeeded(), ne(variables['VSCODE_PUBLISH'], 'false'))
 
   # needed for code signing
-  - task: UseDotNet@2
+  - task: UseDotNet@2.207.2
     displayName: "Install .NET Core SDK 2.x"
     inputs:
       version: 2.x
