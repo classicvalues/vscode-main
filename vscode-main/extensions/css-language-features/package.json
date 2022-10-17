@@ -853,7 +853,7 @@
     "vscode-uri": "3.0.6"
   },
   "devDependencies": {
-    "@types/node": "^12.19.9"
+    "@types/node": "12.20.55"
   },
   "repository": {
     "type": "git",
