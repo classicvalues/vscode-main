@@ -16,11 +16,11 @@
     "request-light": "0.4.0",
     "vscode-json-languageservice": "5.1.1",
     "vscode-languageserver": "8.0.2",
-    "vscode-uri": "3.0.2"
+    "vscode-uri": "3.0.6"
   },
   "devDependencies": {
     "@types/mocha": "^8.2.0",
-    "@types/node": "^12.19.9"
+    "@types/node": "12.20.55"
   },
   "scripts": {
     "prepublishOnly": "npm run clean && npm run compile",

@@ -2374,18 +2374,18 @@
   "dependencies": {
     "byline": "5.0.0",
     "file-type": "17.1.6",
-    "iconv-lite-umd": "0.6.8",
+    "iconv-lite-umd": "0.6.10",
     "jschardet": "3.0.0",
     "vscode-extension-telemetry": "0.1.7",
     "vscode-nls": "5.0.1",
-    "vscode-uri": "3.0.3",
+    "vscode-uri": "3.0.6",
     "which": "2.0.2"
   },
   "devDependencies": {
     "@types/byline": "4.2.33",
     "@types/file-type": "10.6.0",
     "@types/mocha": "^8.2.0",
-    "@types/node": "^12.19.9",
+    "@types/node": "12.20.55",
     "@types/which": "2.0.1"
   },
   "repository": {
