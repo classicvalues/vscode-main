@@ -1,9 +1,9 @@
 steps:
-  - task: NodeTool@0
+  - task: NodeTool@0.211.0
     inputs:
       versionSpec: "14.x"
 
-  - task: AzureKeyVault@1
+  - task: AzureKeyVault@1.212.0
     displayName: "Azure Key Vault: Get Secrets"
     inputs:
       azureSubscription: "vscode-builds-subscription"
@@ -52,7 +52,7 @@ steps:
       node build/azure-pipelines/common/computeNodeModulesCacheKey.js $VSCODE_ARCH $ENABLE_TERRAPIN > .build/yarnlockhash
     displayName: Prepare yarn cache flags
 
-  - task: Cache@2
+  - task: Cache@2.198.0
     inputs:
       key: 'nodeModules | $(Agent.OS) | .build/yarnlockhash'
       path: .build/node_modules_cache
@@ -257,7 +257,7 @@ steps:
     displayName: Run smoke tests (Browser)
     condition: and(succeeded(), eq(variables['VSCODE_ARCH'], 'x64'), eq(variables['VSCODE_STEP_ON_IT'], 'false'))
 
-  - task: PublishPipelineArtifact@0
+  - task: PublishPipelineArtifact@0.151.0
     inputs:
       artifactName: crash-dump-macos-$(VSCODE_ARCH)
       targetPath: .build/crashes
@@ -265,7 +265,7 @@ steps:
     continueOnError: true
     condition: failed()
 
-  - task: PublishTestResults@2
+  - task: PublishTestResults@2.210.0
     displayName: Publish Tests Results
     inputs:
       testResultsFiles: "*-results.xml"
