@@ -132,7 +132,7 @@ steps:
       tar -czf $(Build.ArtifactStagingDirectory)/compilation.tar.gz .build out-*
     displayName: Compress compilation artifact
 
-  - task: PublishPipelineArtifact@1
+  - task: PublishPipelineArtifact@1.199.0
     inputs:
       targetPath: $(Build.ArtifactStagingDirectory)/compilation.tar.gz
       artifactName: Compilation
