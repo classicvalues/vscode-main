@@ -29,7 +29,7 @@
   "dependencies": {
     "jsonc-parser": "2.2.1",
     "markdown-it": "13.0.1",
-    "parse5": "7.0.0",
+    "parse5": "7.1.1",
     "vscode-nls": "5.0.1"
   },
   "contributes": {
