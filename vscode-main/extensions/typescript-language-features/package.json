@@ -28,7 +28,7 @@
     "Programming Languages"
   ],
   "dependencies": {
-    "jsonc-parser": "2.3.1",
+    "jsonc-parser": "3.2.0",
     "semver": "7.3.8",
     "typescript-vscode-sh-plugin": "0.7.3",
     "vscode-extension-telemetry": "0.1.7",
