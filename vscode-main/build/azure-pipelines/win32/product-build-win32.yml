@@ -18,7 +18,7 @@ steps:
       azureSubscription: "vscode-builds-subscription"
       KeyVaultName: vscode
 
-  - task: DownloadPipelineArtifact@2
+  - task: DownloadPipelineArtifact@2.198.0
     inputs:
       artifact: Compilation
       path: $(Build.ArtifactStagingDirectory)
