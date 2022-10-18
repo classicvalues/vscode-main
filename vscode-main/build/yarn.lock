@@ -224,10 +224,10 @@
   resolved "https://registry.yarnpkg.com/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
   integrity sha512-OCutwjDZ4aFS6PB1UZ988C4YgwlBHJd6wCeQqaLdmadZ/7e+w79+hbMUFC1QXDNCmdyoRfAFdm0RypzwR+Qpag==
 
-"@types/eslint@4.16.1":
-  version "4.16.1"
-  resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-4.16.1.tgz#19730c9fcb66b6e44742d12b27a603fabfeb2f49"
-  integrity sha512-lRUXQAULl5geixTiP2K0iYvMUbCkEnuOwvLGjwff12I4ECxoW5QaWML5UUOZ1CvpQLILkddBdMPMZz4ByQizsg==
+"@types/eslint@4.16.8":
+  version "4.16.8"
+  resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-4.16.8.tgz#856f0eb8a312d25a7989b6d0ab708e8d5f8cc7ee"
+  integrity sha512-n0ZvaIpPeBxproRvV+tZoCHRxIoNAk+k+XMvQefKgx3qM3IundoogQBAwiNEnqW0GDP1j1ATe5lFy9xxutFAHg==
   dependencies:
     "@types/estree" "*"
     "@types/json-schema" "*"
