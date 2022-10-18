@@ -906,7 +906,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/yazl@^2.4.2":
+"@types/yazl@2.4.2":
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/@types/yazl/-/yazl-2.4.2.tgz#d5f8a4752261badbf1a36e8b49e042dc18ec84bc"
   integrity sha512-T+9JH8O2guEjXNxqmybzQ92mJUh2oCwDDMSSimZSe1P+pceZiFROZLYmcbqkzV5EUwz6VwcKXCO2S2yUpra6XQ==
@@ -6407,13 +6407,6 @@ minimalistic-crypto-utils@^1.0.1:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimatch@3.1.2, minimatch@^3.1.1:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
-  integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
-  dependencies:
-    brace-expansion "^1.1.7"
-
 minimatch@5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-5.0.1.tgz#fb9022f7528125187c92bd9e9b6366be1cf3415b"
@@ -6421,12 +6414,19 @@ minimatch@5.0.1:
   dependencies:
     brace-expansion "^2.0.1"
 
-minimatch@^5.0.1:
+minimatch@5.1.0, minimatch@^5.0.1:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-5.1.0.tgz#1717b464f4971b144f6aabe8f2d0b8e4511e09c7"
   integrity sha512-9TPBGGak4nHfGZsPBohm9AWg6NoT7QTCehS3BIJABslyZbzxfV78QM2Y6+i741OPZIafFAaiiEMh5OyIrJPgtg==
   dependencies:
     brace-expansion "^2.0.1"
+
+minimatch@^3.1.1:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
+  integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
+  dependencies:
+    brace-expansion "^1.1.7"
 
 minimist@1.2.7:
   version "1.2.7"
