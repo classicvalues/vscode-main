@@ -54,7 +54,7 @@
     "source-map": "0.6.1",
     "vsce": "2.11.0",
     "typescript": "4.8.4",
-    "vscode-universal": "deepak1556/universal#61454d96223b774c53cda10f72c2098c0ce02d58"
+    "vscode-universal": "deepak1556/universal#cc75b9565d9eaf36442628303db7fa9df2cc73a6"
   },
   "scripts": {
     "compile": "tsc -p tsconfig.build.json",
