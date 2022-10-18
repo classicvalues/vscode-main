@@ -67,11 +67,11 @@
   },
   "dependencies": {
     "vscode-extension-telemetry": "0.1.7",
-    "vscode-nls": "^4.0.0"
+    "vscode-nls": "5.0.1"
   },
   "devDependencies": {
-    "vscode-codicons": "^0.0.14",
-    "@types/node": "^12.11.7"
+    "vscode-codicons": "0.0.17",
+    "@types/node": "12.20.55"
   },
   "repository": {
     "type": "git",
