@@ -355,7 +355,7 @@
     "markdown-it": "13.0.1",
     "markdown-it-front-matter": "0.2.3",
     "vscode-extension-telemetry": "0.1.7",
-    "vscode-nls": "5.0.1"
+    "vscode-nls": "5.2.0"
   },
   "devDependencies": {
     "@types/highlight.js": "10.1.0",
