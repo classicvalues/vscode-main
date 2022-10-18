@@ -4811,6 +4811,7 @@ gulp-untar@0.0.8:
     through2 "~2.0.3"
     vinyl "^1.2.0"
 
+
 gulp-vinyl-zip@2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/gulp-vinyl-zip/-/gulp-vinyl-zip-2.5.0.tgz#73eef9c067b8775b1ad07a34a41384e1c7b0041a"
