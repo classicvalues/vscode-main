@@ -7,13 +7,13 @@ steps:
     inputs:
       versionSpec: "1.x"
 
-  - task: AzureKeyVault@1.212.0
+  - task: AzureKeyVault@2.211.1
     displayName: "Azure Key Vault: Get Secrets"
     inputs:
       azureSubscription: "vscode-builds-subscription"
       KeyVaultName: vscode
 
-  - task: DownloadPipelineArtifact@2
+  - task: DownloadPipelineArtifact@2.198.0
     inputs:
       artifact: Compilation
       path: $(Build.ArtifactStagingDirectory)
@@ -24,7 +24,7 @@ steps:
       tar -xzf $(Build.ArtifactStagingDirectory)/compilation.tar.gz
     displayName: Extract compilation output
 
-  - task: Docker@1.210.0
+  - task: Docker@2.211.0
     displayName: "Pull image"
     inputs:
       azureSubscriptionEndpoint: "vscode-builds-subscription"
