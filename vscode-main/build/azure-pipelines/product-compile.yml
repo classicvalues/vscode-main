@@ -7,7 +7,7 @@ steps:
     inputs:
       versionSpec: "1.x"
 
-  - task: AzureKeyVault@1.212.0
+  - task: AzureKeyVault@2.211.1
     displayName: "Azure Key Vault: Get Secrets"
     inputs:
       azureSubscription: "vscode-builds-subscription"
@@ -132,7 +132,7 @@ steps:
       tar -czf $(Build.ArtifactStagingDirectory)/compilation.tar.gz .build out-*
     displayName: Compress compilation artifact
 
-  - task: PublishPipelineArtifact@1
+  - task: PublishPipelineArtifact@1.199.0
     inputs:
       targetPath: $(Build.ArtifactStagingDirectory)/compilation.tar.gz
       artifactName: Compilation

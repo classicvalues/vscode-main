@@ -12,13 +12,13 @@ steps:
       versionSpec: "2.x"
       addToPath: true
 
-  - task: AzureKeyVault@1.212.0
+  - task: AzureKeyVault@2.211.1
     displayName: "Azure Key Vault: Get Secrets"
     inputs:
       azureSubscription: "vscode-builds-subscription"
       KeyVaultName: vscode
 
-  - task: DownloadPipelineArtifact@2
+  - task: DownloadPipelineArtifact@2.198.0
     inputs:
       artifact: Compilation
       path: $(Build.ArtifactStagingDirectory)
@@ -194,7 +194,7 @@ steps:
     timeoutInMinutes: 7
     condition: and(succeeded(), eq(variables['VSCODE_STEP_ON_IT'], 'false'), ne(variables['VSCODE_ARCH'], 'arm64'))
 
-  - task: PublishPipelineArtifact@0.151.0
+  - task: PublishPipelineArtifact@1.199.0
     inputs:
       artifactName: crash-dump-windows-$(VSCODE_ARCH)
       targetPath: .build\crashes
