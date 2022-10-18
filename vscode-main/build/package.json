@@ -20,7 +20,7 @@
     "@types/gulp-rename": "2.0.1",
     "@types/gulp-sourcemaps": "0.0.35",
     "@types/mime": "3.0.1",
-    "@types/minimatch": "^3.0.3",
+    "@types/minimatch": "3.0.5",
     "@types/minimist": "1.2.2",
     "@types/mkdirp": "1.0.2",
     "@types/mocha": "8.2.3",
