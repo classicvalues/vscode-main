@@ -295,10 +295,10 @@
     "@types/node" "*"
     "@types/vinyl" "*"
 
-"@types/gulp-gzip@^0.0.31":
-  version "0.0.31"
-  resolved "https://registry.yarnpkg.com/@types/gulp-gzip/-/gulp-gzip-0.0.31.tgz#9358def25540442138fd61a7227f40d4c1e26760"
-  integrity sha512-KQjHz1FTqLse8/EiktfhN/vo33vamX4gVAQhMTp55STDBA7UToW5CJqYyP7iRorkHK9/aJ2nL2hLkNZkY4M8+w==
+"@types/gulp-gzip@0.0.32":
+  version "0.0.32"
+  resolved "https://registry.yarnpkg.com/@types/gulp-gzip/-/gulp-gzip-0.0.32.tgz#2a937eaced2a292c8fd1a4677eea9b9512491315"
+  integrity sha512-hqpJIU95Z26ObYNOogmOIHftkpWi+zmHhpzoEoTSMnh4Byag3HkVkil5YJF+6yQn93M+dV1z0gGYsyKrYXjL/w==
   dependencies:
     "@types/node" "*"
 
