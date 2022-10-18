@@ -1,5 +1,5 @@
 steps:
-  - task: NodeTool@0
+  - task: NodeTool@0.211.0
     inputs:
       versionSpec: "14.x"
 
@@ -7,12 +7,12 @@ steps:
     inputs:
       versionSpec: "1.x"
 
-  - task: UsePythonVersion@0
+  - task: UsePythonVersion@0.206.0
     inputs:
       versionSpec: "2.x"
       addToPath: true
 
-  - task: AzureKeyVault@1
+  - task: AzureKeyVault@1.212.0
     displayName: "Azure Key Vault: Get Secrets"
     inputs:
       azureSubscription: "vscode-builds-subscription"
@@ -51,7 +51,7 @@ steps:
       node build/azure-pipelines/common/computeNodeModulesCacheKey.js > .build/yarnlockhash
     displayName: Prepare yarn cache flags
 
-  - task: Cache@2
+  - task: Cache@2.198.0
     inputs:
       key: 'nodeModules | $(Agent.OS) | .build/arch, .build/terrapin, .build/yarnlockhash'
       path: .build/node_modules_cache
@@ -194,7 +194,7 @@ steps:
     timeoutInMinutes: 7
     condition: and(succeeded(), eq(variables['VSCODE_STEP_ON_IT'], 'false'), ne(variables['VSCODE_ARCH'], 'arm64'))
 
-  - task: PublishPipelineArtifact@0
+  - task: PublishPipelineArtifact@0.151.0
     inputs:
       artifactName: crash-dump-windows-$(VSCODE_ARCH)
       targetPath: .build\crashes
@@ -202,7 +202,7 @@ steps:
     continueOnError: true
     condition: failed()
 
-  - task: PublishTestResults@2
+  - task: PublishTestResults@2.210.0
     displayName: Publish Tests Results
     inputs:
       testResultsFiles: "*-results.xml"
@@ -265,7 +265,7 @@ steps:
       SessionTimeout: 120
     condition: and(succeeded(), ne(variables['VSCODE_PUBLISH'], 'false'))
 
-  - task: NuGetCommand@2
+  - task: NuGetCommand@2.211.0
     displayName: Install ESRPClient.exe
     inputs:
       restoreSolution: 'build\azure-pipelines\win32\ESRPClient\packages.config'
@@ -281,7 +281,7 @@ steps:
       ESRP: "ESRP CodeSign"
     condition: and(succeeded(), ne(variables['VSCODE_PUBLISH'], 'false'))
 
-  - task: PowerShell@2
+  - task: PowerShell@2.210.0
     inputs:
       targetType: filePath
       filePath: .\build\azure-pipelines\win32\import-esrp-auth-cert.ps1
