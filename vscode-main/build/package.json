@@ -23,7 +23,7 @@
     "@types/minimatch": "^3.0.3",
     "@types/minimist": "^1.2.1",
     "@types/mkdirp": "1.0.2",
-    "@types/mocha": "^8.2.0",
+    "@types/mocha": "8.2.3",
     "@types/node": "14.18.32",
     "@types/p-limit": "^2.2.0",
     "@types/plist": "^3.0.2",
