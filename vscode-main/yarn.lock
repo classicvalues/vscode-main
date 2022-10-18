@@ -791,10 +791,17 @@
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-5.5.0.tgz#146c2a29ee7d3bae4bf2fcb274636e264c813c45"
   integrity sha512-41qEJgBH/TWgo5NFSvBCJ1qkoi3Q6ONSF2avrHq1LVEZfYpdHmj0y9SuTK+u9ZhG1sYQKBL1AWXKyLWP4RaUoQ==
 
-"@types/sinon@1.16.36":
-  version "1.16.36"
-  resolved "https://registry.yarnpkg.com/@types/sinon/-/sinon-1.16.36.tgz#74bb6ed7928597c1b3fb1b009005e94dc6eae357"
-  integrity sha512-kfZ7gxF5TDKgs/P26mms3xvoBOjOPZdNiYm4GVepOaxpx4vYJy75tTn99nAwjovQ9Z61EHAfHLliahB6fkCB0Q==
+"@types/sinon@10.0.13":
+  version "10.0.13"
+  resolved "https://registry.yarnpkg.com/@types/sinon/-/sinon-10.0.13.tgz#60a7a87a70d9372d0b7b38cc03e825f46981fb83"
+  integrity sha512-UVjDqJblVNQYvVNUsj0PuYYw0ELRmgt1Nt5Vk0pT5f16ROGfcKJY8o1HVuMOJOpD727RrGB9EGvoaTQE5tgxZQ==
+  dependencies:
+    "@types/sinonjs__fake-timers" "*"
+
+"@types/sinonjs__fake-timers@*":
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/@types/sinonjs__fake-timers/-/sinonjs__fake-timers-8.1.2.tgz#bf2e02a3dbd4aecaf95942ecd99b7402e03fad5e"
+  integrity sha512-9GcLXF0/v3t80caGs5p2rRfkB+a8VBGLJZVih6CNFkx8IZ994wiKKLSRs9nuFwk1HevWs/1mnUmkApGrSGsShA==
 
 "@types/source-list-map@*":
   version "0.1.2"
@@ -906,7 +913,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/yazl@^2.4.2":
+"@types/yazl@2.4.2":
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/@types/yazl/-/yazl-2.4.2.tgz#d5f8a4752261badbf1a36e8b49e042dc18ec84bc"
   integrity sha512-T+9JH8O2guEjXNxqmybzQ92mJUh2oCwDDMSSimZSe1P+pceZiFROZLYmcbqkzV5EUwz6VwcKXCO2S2yUpra6XQ==
