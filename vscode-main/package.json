@@ -84,7 +84,7 @@
     "vscode-ripgrep": "1.13.2",
     "vscode-sqlite3": "4.0.11",
     "vscode-textmate": "7.0.3",
-    "xterm": "4.12.0",
+    "xterm": "5.0.0",
     "xterm-addon-search": "0.9.0",
     "xterm-addon-unicode11": "0.3.0",
     "xterm-addon-webgl": "0.11.4",
