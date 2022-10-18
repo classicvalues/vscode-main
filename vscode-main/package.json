@@ -162,7 +162,7 @@
     "gulp-vinyl-zip": "2.5.0",
     "husky": "8.0.1",
     "innosetup": "6.0.5",
-    "is": "3.2.1",
+    "is": "3.3.0",
     "istanbul-lib-coverage": "3.2.0",
     "istanbul-lib-instrument": "5.2.1",
     "istanbul-lib-report": "3.0.0",
