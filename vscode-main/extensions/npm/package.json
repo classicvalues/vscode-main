@@ -23,7 +23,7 @@
     "jsonc-parser": "2.2.1",
     "minimatch": "5.1.0",
     "request-light": "0.4.0",
-    "vscode-nls": "5.0.1",
+    "vscode-nls": "5.2.0",
     "which": "2.0.2",
     "which-pm": "2.0.0"
   },
