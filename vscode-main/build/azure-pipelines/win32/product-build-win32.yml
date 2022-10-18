@@ -12,7 +12,7 @@ steps:
       versionSpec: "2.x"
       addToPath: true
 
-  - task: AzureKeyVault@1.212.0
+  - task: AzureKeyVault@2.211.1
     displayName: "Azure Key Vault: Get Secrets"
     inputs:
       azureSubscription: "vscode-builds-subscription"

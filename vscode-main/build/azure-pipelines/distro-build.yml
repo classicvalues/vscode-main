@@ -10,7 +10,7 @@ steps:
     inputs:
       versionSpec: "14.x"
 
-  - task: AzureKeyVault@1.212.0
+  - task: AzureKeyVault@2.211.1
     displayName: "Azure Key Vault: Get Secrets"
     inputs:
       azureSubscription: "vscode-builds-subscription"
