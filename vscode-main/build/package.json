@@ -13,7 +13,7 @@
     "@types/fancy-log": "2.0.0",
     "@types/glob": "7.2.0",
     "@types/gulp": "4.0.9",
-    "@types/gulp-concat": "^0.0.32",
+    "@types/gulp-concat": "0.0.33",
     "@types/gulp-filter": "3.0.34",
     "@types/gulp-gzip": "0.0.32",
     "@types/gulp-json-editor": "2.2.33",
