@@ -37,7 +37,7 @@
   dependencies:
     "@emmetio/scanner" "^1.0.0"
 
-"@emmetio/math-expression@^1.0.4":
+"@emmetio/math-expression@1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@emmetio/math-expression/-/math-expression-1.0.4.tgz#cb657ed944f82b3728f863bf5ece1b1ff3ae7497"
   integrity sha512-1m7y8/VeXCAfgFoPGTerbqCIadApcIINujd3TaM/LRLPPKiod8aT1PPmh542spnsUSsSnZJjbuF7xiO4WFA42g==
@@ -107,6 +107,11 @@ vscode-emmet-helper@2.6.4:
     vscode-languageserver-types "^3.15.1"
     vscode-nls "^5.0.0"
     vscode-uri "^2.1.2"
+
+vscode-languageserver-textdocument@1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.7.tgz#16df468d5c2606103c90554ae05f9f3d335b771b"
+  integrity sha512-bFJH7UQxlXT8kKeyiyu41r22jCZXG8kuuVVA33OEJn1diWOZK5n8zBSPZFHVBOu8kXZ6h0LIRhf5UnCo61J4Hg==
 
 vscode-languageserver-textdocument@^1.0.1:
   version "1.0.1"
