@@ -37,7 +37,7 @@
     "@typescript-eslint/experimental-utils": "2.34.0",
     "@typescript-eslint/parser": "^3.3.0",
     "applicationinsights": "1.8.10",
-    "azure-storage": "^2.1.0",
+    "azure-storage": "2.10.7",
     "byline": "^5.0.0",
     "colors": "^1.4.0",
     "commander": "7.2.0",
