@@ -162,7 +162,7 @@
     "gulp-untar": "0.0.8",
     "gulp-vinyl-zip": "2.5.0",
     "husky": "8.0.1",
-    "innosetup": "6.0.5",
+    "innosetup": "6.0.5"
     "jsdom-no-contextify": "3.1.0",
     "mocha-junit-reporter": "2.1.0",
     "mocha-multi-reporters": "1.5.1",
