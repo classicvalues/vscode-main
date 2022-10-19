@@ -131,7 +131,7 @@
     "debounce": "1.2.1",
     "deemon": "1.7.1",
     "electron": "21.1.1",
-    "eslint": "6.8.0",
+    "eslint": "8.25.0",
     "eslint-plugin-jsdoc": "39.3.13",
     "event-stream": "4.0.1",
     "fancy-log": "2.0.0",
