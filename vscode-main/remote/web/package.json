@@ -3,14 +3,14 @@
 	"version": "0.0.0",
 	"private": true,
 	"dependencies": {
-		"iconv-lite-umd": "0.6.8",
+		"iconv-lite-umd": "0.6.10",
 		"jschardet": "3.0.0",
 		"tas-client-umd": "0.1.6",
-		"vscode-oniguruma": "1.3.1",
-		"vscode-textmate": "7.0.1",
-		"xterm": "4.12.0",
-		"xterm-addon-search": "0.9.0",
-		"xterm-addon-unicode11": "0.3.0",
-		"xterm-addon-webgl": "0.11.4"
+		"vscode-oniguruma": "1.6.2",
+		"vscode-textmate": "7.0.3",
+		"xterm": "5.0.0",
+		"xterm-addon-search": "0.10.0",
+		"xterm-addon-unicode11": "0.4.0",
+		"xterm-addon-webgl": "0.13.0"
 	}
 }

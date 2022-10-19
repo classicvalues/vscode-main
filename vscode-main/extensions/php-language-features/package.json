@@ -7,7 +7,7 @@
   "license": "MIT",
   "icon": "icons/logo.png",
   "engines": {
-    "vscode": "1.70.x"
+    "vscode": "1.72.x"
   },
   "enableProposedApi": true,
   "activationEvents": [
@@ -90,11 +90,11 @@
     "watch": "npx gulp watch-extension:php-language-features"
   },
   "dependencies": {
-    "vscode-nls": "5.0.1",
+    "vscode-nls": "5.2.0",
     "which": "2.0.2"
   },
   "devDependencies": {
-    "@types/node": "^12.19.9",
+    "@types/node": "12.20.55",
     "@types/which": "2.0.1"
   },
   "repository": {

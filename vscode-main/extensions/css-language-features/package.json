@@ -849,11 +849,11 @@
   },
   "dependencies": {
     "vscode-languageclient": "8.0.2",
-    "vscode-nls": "5.0.1",
-    "vscode-uri": "3.0.2"
+    "vscode-nls": "5.2.0",
+    "vscode-uri": "3.0.6"
   },
   "devDependencies": {
-    "@types/node": "^12.19.9"
+    "@types/node": "12.20.55"
   },
   "repository": {
     "type": "git",

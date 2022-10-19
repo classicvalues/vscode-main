@@ -18,10 +18,10 @@
     "vscode:prepublish": "node ../../node_modules/gulp/bin/gulp.js --gulpfile ../../build/gulpfile.extensions.js compile-extension:vscode-colorize-tests ./tsconfig.json"
   },
   "dependencies": {
-    "jsonc-parser": "2.2.1"
+    "jsonc-parser": "3.2.0"
   },
   "devDependencies": {
-    "@types/node": "^12.19.9"
+    "@types/node": "12.20.55"
   },
   "contributes": {
     "semanticTokenTypes": [

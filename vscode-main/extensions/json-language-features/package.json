@@ -7,7 +7,7 @@
   "license": "MIT",
   "aiKey": "AIF-d9b70cd4-b9f9-4d70-929b-a071c400b217",
   "engines": {
-    "vscode": "1.70.x"
+    "vscode": "1.72.x"
   },
   "icon": "icons/json.png",
   "activationEvents": [
@@ -134,13 +134,13 @@
     ]
   },
   "dependencies": {
-    "request-light": "0.4.0",
-    "vscode-extension-telemetry": "0.1.7",
+    "request-light": "0.5.8",
+    "vscode-extension-telemetry": "0.4.5",
     "vscode-languageclient": "8.0.2",
-    "vscode-nls": "5.0.1"
+    "vscode-nls": "5.2.0"
   },
   "devDependencies": {
-    "@types/node": "^12.19.9"
+    "@types/node": "12.20.55"
   },
   "repository": {
     "type": "git",
