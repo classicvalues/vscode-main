@@ -65,12 +65,12 @@
     "watch": "gulp watch-extension:github"
   },
   "dependencies": {
-    "@octokit/rest": "^18.0.1",
-    "tunnel": "^0.0.6",
-    "vscode-nls": "^4.1.2"
+    "@octokit/rest": "19.0.5",
+    "tunnel": "0.0.6",
+    "vscode-nls": "5.2.0"
   },
   "devDependencies": {
-    "@types/node": "^12.19.9"
+    "@types/node": "12.20.55"
   },
   "repository": {
     "type": "git",

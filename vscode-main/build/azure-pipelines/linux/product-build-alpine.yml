@@ -1,5 +1,5 @@
 steps:
-  - task: NodeTool@0
+  - task: NodeTool@0.211.0
     inputs:
       versionSpec: "14.x"
 
@@ -7,13 +7,13 @@ steps:
     inputs:
       versionSpec: "1.x"
 
-  - task: AzureKeyVault@1
+  - task: AzureKeyVault@2.211.1
     displayName: "Azure Key Vault: Get Secrets"
     inputs:
       azureSubscription: "vscode-builds-subscription"
       KeyVaultName: vscode
 
-  - task: DownloadPipelineArtifact@2
+  - task: DownloadPipelineArtifact@2.198.0
     inputs:
       artifact: Compilation
       path: $(Build.ArtifactStagingDirectory)
@@ -24,7 +24,7 @@ steps:
       tar -xzf $(Build.ArtifactStagingDirectory)/compilation.tar.gz
     displayName: Extract compilation output
 
-  - task: Docker@1
+  - task: Docker@2.211.0
     displayName: "Pull image"
     inputs:
       azureSubscriptionEndpoint: "vscode-builds-subscription"
@@ -55,7 +55,7 @@ steps:
       node build/azure-pipelines/common/computeNodeModulesCacheKey.js "alpine" $ENABLE_TERRAPIN > .build/yarnlockhash
     displayName: Prepare yarn cache flags
 
-  - task: Cache@2
+  - task: Cache@2.198.0
     inputs:
       key: 'nodeModules | $(Agent.OS) | .build/yarnlockhash'
       path: .build/node_modules_cache
