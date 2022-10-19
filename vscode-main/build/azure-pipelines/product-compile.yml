@@ -1,5 +1,5 @@
 steps:
-  - task: NodeTool@0
+  - task: NodeTool@0.211.0
     inputs:
       versionSpec: "14.x"
 
@@ -7,7 +7,7 @@ steps:
     inputs:
       versionSpec: "1.x"
 
-  - task: AzureKeyVault@1
+  - task: AzureKeyVault@2.211.1
     displayName: "Azure Key Vault: Get Secrets"
     inputs:
       azureSubscription: "vscode-builds-subscription"
@@ -36,7 +36,7 @@ steps:
     displayName: Prepare yarn cache flags
 
   # using `genericNodeModules` instead of `nodeModules` here to avoid sharing the cache with builds running inside containers
-  - task: Cache@2
+  - task: Cache@2.198.0
     inputs:
       key: 'genericNodeModules | $(Agent.OS) | .build/yarnlockhash'
       path: .build/node_modules_cache
@@ -132,7 +132,7 @@ steps:
       tar -czf $(Build.ArtifactStagingDirectory)/compilation.tar.gz .build out-*
     displayName: Compress compilation artifact
 
-  - task: PublishPipelineArtifact@1
+  - task: PublishPipelineArtifact@1.199.0
     inputs:
       targetPath: $(Build.ArtifactStagingDirectory)/compilation.tar.gz
       artifactName: Compilation

@@ -19,7 +19,7 @@
     "onStartupFinished"
   ],
   "dependencies": {
-    "vscode-nls": "^5.0.0"
+    "vscode-nls": "5.2.0"
   },
   "capabilities": {
     "virtualWorkspaces": true,
