@@ -22,8 +22,8 @@
     "p-limit": "4.0.0"
   },
   "devDependencies": {
-    "@types/node": "^12.19.9",
-    "@types/p-limit": "^2.2.0"
+    "@types/node": "12.20.55",
+    "@types/p-limit": "2.2.0"
   },
   "contributes": {
     "customEditors": [
