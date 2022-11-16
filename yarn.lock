@@ -6066,6 +6066,11 @@ nan@^2.14.0:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
   integrity sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
 
+nan@^2.17.0:
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.17.0.tgz#c0150a2368a182f033e9aa5195ec76ea41a199cb"
+  integrity sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==
+
 nanoid@3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.3.tgz#fd8e8b7aa761fe807dba2d1b98fb7241bb724a25"
@@ -7929,14 +7934,14 @@ sparkles@^1.0.0:
   resolved "https://registry.yarnpkg.com/sparkles/-/sparkles-1.0.1.tgz#008db65edce6c50eec0c5e228e1945061dd0437c"
   integrity sha512-dSO0DDYUahUt/0/pD/Is3VIm5TGJjludZ0HVymmhYF6eNA53PVLhnUk0znSYbH8IYBuJdCE+1luR22jNLMaQdw==
 
-spdlog@0.13.6:
-  version "0.13.6"
-  resolved "https://registry.yarnpkg.com/spdlog/-/spdlog-0.13.6.tgz#26b2e13d46cbf8f2334c12ba2a8cc82de5a28f02"
-  integrity sha512-iGqDoA88G3Rv3lkbVQglTulp3nv12FzND6LDC7cOZ+OoFvWnXVb3+Ebhed60oZ6+IWWGwDtjXK6ympwr7C1XmQ==
+spdlog@0.13.7:
+  version "0.13.7"
+  resolved "https://registry.yarnpkg.com/spdlog/-/spdlog-0.13.7.tgz#719a972be103e473770202e37dca1c9d80502180"
+  integrity sha512-DiWxvyHuDJKfNuanSnizY2pmqZGaSHej3xpOD4LQ+kkT3oLWpCXI6VRFDnziyXBQKCl8kmyaYnOu9QBhf1WEXQ==
   dependencies:
     bindings "^1.5.0"
     mkdirp "^0.5.5"
-    nan "^2.14.0"
+    nan "^2.17.0"
 
 spdx-correct@^3.0.0:
   version "3.1.1"
