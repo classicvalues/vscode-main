@@ -131,7 +131,7 @@
     "cssnano": "5.1.13",
     "debounce": "1.2.1",
     "deemon": "1.7.1",
-    "electron": "21.2.0",
+    "electron": "21.2.3",
     "eslint": "8.25.0",
     "eslint-plugin-jsdoc": "39.3.14",
     "event-stream": "4.0.1",
