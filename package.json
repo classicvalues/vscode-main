@@ -70,7 +70,7 @@
     "keytar": "7.9.0",
     "minimist": "1.2.7",
     "native-is-elevated": "0.5.1",
-    "native-keymap": "3.3.1",
+    "native-keymap": "3.3.2",
     "native-watchdog": "1.4.1",
     "node-pty": "0.10.1",
     "nsfw": "2.2.3",
