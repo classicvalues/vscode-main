@@ -178,7 +178,7 @@
     "merge-options": "3.0.4",
     "mime": "3.0.0",
     "minimatch": "5.1.2",
-    "minimist": "1.2.7",
+    "minimist": "1.2.8",
     "mkdirp": "1.0.4",
     "mocha": "10.2.0",
     "optimist": "0.6.1",
