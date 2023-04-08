@@ -76,7 +76,7 @@
     "nsfw": "2.2.4",
     "spdlog": "0.13.7",
     "sudo-prompt": "9.2.1",
-    "tas-client-umd": "0.1.6",
+    "tas-client-umd": "0.1.7",
     "v8-inspect-profiler": "0.1.0",
     "vscode-oniguruma": "1.7.0",
     "vscode-proxy-agent": "0.12.0",
