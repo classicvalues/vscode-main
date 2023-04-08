@@ -188,7 +188,7 @@
     "queue": "6.0.2",
     "rcedit": "3.0.1",
     "request": "2.88.2",
-    "rimraf": "4.1.2",
+    "rimraf": "4.4.1",
     "sinon": "15.0.1",
     "source-map": "0.7.4",
     "source-map-support": "0.5.21",
