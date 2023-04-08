@@ -128,7 +128,7 @@
     "copy-webpack-plugin": "11.0.0",
     "cson-parser": "4.0.9",
     "css-loader": "6.7.3",
-    "cssnano": "5.1.14",
+    "cssnano": "5.1.15",
     "debounce": "1.2.1",
     "electron": "23.0.0",
     "deemon": "1.8.0",
