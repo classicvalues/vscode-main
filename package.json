@@ -218,7 +218,7 @@
   },
   "optionalDependencies": {
     "vscode-windows-registry": "1.0.4",
-    "windows-foreground-love": "0.4.0",
+    "windows-foreground-love": "0.5.0",
     "windows-mutex": "0.4.1",
     "windows-process-tree": "0.4.0"
   },
