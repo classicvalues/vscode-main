@@ -189,7 +189,7 @@
     "rcedit": "3.0.1",
     "request": "2.88.2",
     "rimraf": "4.4.1",
-    "sinon": "15.0.1",
+    "sinon": "15.0.3",
     "source-map": "0.7.4",
     "source-map-support": "0.5.21",
     "style-loader": "3.3.1",
