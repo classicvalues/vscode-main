@@ -179,7 +179,7 @@
     "mime": "3.0.0",
     "minimatch": "8.0.3",
     "minimist": "1.2.8",
-    "mkdirp": "2.1.6",
+    "mkdirp": "3.0.0",
     "mocha": "10.2.0",
     "optimist": "0.6.1",
     "p-all": "4.0.0",
