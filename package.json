@@ -63,7 +63,7 @@
     "applicationinsights": "2.5.1",
     "chokidar": "3.5.3",
     "graceful-fs": "4.2.11",
-    "http-proxy-agent": "5.0.0",
+    "http-proxy-agent": "6.1.1",
     "https-proxy-agent": "5.0.1",
     "iconv-lite-umd": "0.6.10",
     "jschardet": "3.0.0",
