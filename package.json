@@ -194,7 +194,7 @@
     "source-map-support": "0.5.21",
     "style-loader": "3.3.2",
     "ts-loader": "9.5.0",
-    "tsec": "0.2.7",
+    "tsec": "0.2.8",
     "typescript": "5.0.4",
     "typescript-formatter": "7.2.2",
     "underscore": "1.13.6",
