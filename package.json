@@ -133,7 +133,7 @@
     "electron": "27.0.0",
     "deemon": "1.8.0",
     "eslint": "8.38.0",
-    "eslint-plugin-jsdoc": "41.1.1",
+    "eslint-plugin-jsdoc": "46.10.1",
     "event-stream": "4.0.1",
     "fancy-log": "2.0.0",
     "fast-plist": "0.1.3",
