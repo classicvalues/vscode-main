@@ -111,7 +111,7 @@
     "@types/sinon": "10.0.16",
     "@types/trusted-types": "2.0.3",
     "@types/webpack": "5.28.1",
-    "@types/wicg-file-system-access": "2020.9.6",
+    "@types/wicg-file-system-access": "2020.9.8",
     "@types/windows-foreground-love": "0.3.0",
     "@types/windows-mutex": "0.4.0",
     "@types/windows-process-tree": "0.2.0",
