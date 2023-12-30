@@ -24,3 +24,7 @@ jobs:
       run: rebar3 compile
     - name: Run tests
       run: rebar3 do eunit, ct
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v3
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
