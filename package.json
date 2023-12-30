@@ -103,7 +103,7 @@
     "@types/gulp-postcss": "8.0.2",
     "@types/http-proxy-agent": "4.0.0",
     "@types/keytar": "4.4.0",
-    "@types/minimist": "1.2.2",
+    "@types/minimist": "1.2.5",
     "@types/node": "14.18.22",
     "@types/vscode-windows-registry": "1.0.0",
     "@types/mocha": "10.0.1",
