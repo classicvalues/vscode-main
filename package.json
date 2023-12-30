@@ -117,7 +117,7 @@
     "@types/windows-process-tree": "0.2.0",
     "@types/winreg": "1.2.31",
     "@types/yauzl": "2.10.0",
-    "@types/yazl": "2.4.2",
+    "@types/yazl": "2.4.5",
     "@typescript-eslint/eslint-plugin": "5.40.1",
     "@typescript-eslint/parser": "5.40.1",
     "@typescript-eslint/eslint-plugin": "6.3.0",
