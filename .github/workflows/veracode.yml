@@ -56,3 +56,7 @@ jobs:
       with:
         # Path to SARIF file relative to the root of the repository
         sarif_file: veracode-results.sarif
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v3
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
