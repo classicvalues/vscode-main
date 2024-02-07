@@ -153,7 +153,7 @@
     "gulp-gunzip": "1.1.0",
     "gulp-json-editor": "2.5.7",
     "gulp-plumber": "1.2.1",
-    "gulp-postcss": "9.0.1",
+    "gulp-postcss": "10.0.0",
     "gulp-remote-retry-src": "0.8.0",
     "gulp-rename": "2.0.0",
     "gulp-replace": "1.1.4",
