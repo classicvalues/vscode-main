@@ -71,7 +71,7 @@
     "minimist": "1.2.8",
     "native-is-elevated": "0.6.0",
     "native-watchdog": "1.4.2",
-    "native-keymap": "3.3.3",
+    "native-keymap": "3.3.5",
     "node-pty": "0.10.1",
     "nsfw": "2.2.4",
     "spdlog": "0.13.7",
