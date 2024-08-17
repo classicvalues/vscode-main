@@ -73,7 +73,7 @@
     "native-watchdog": "1.4.2",
     "native-keymap": "3.3.3",
     "node-pty": "0.10.1",
-    "nsfw": "2.2.4",
+    "nsfw": "2.2.5",
     "spdlog": "0.13.7",
     "sudo-prompt": "9.2.1",
     "tas-client-umd": "0.1.8",
