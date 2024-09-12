@@ -161,7 +161,7 @@
     "gulp-tsb": "4.0.6",
     "gulp-untar": "0.0.8",
     "gulp-vinyl-zip": "2.5.0",
-    "husky": "8.0.3",
+    "husky": "9.1.6",
     "innosetup": "6.0.5",
     "jsdom-no-contextify": "3.1.0",
     "mocha-junit-reporter": "2.2.1",
