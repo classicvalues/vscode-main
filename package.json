@@ -61,7 +61,7 @@
   },
   "dependencies": {
     "applicationinsights": "2.5.1",
-    "chokidar": "3.5.3",
+    "chokidar": "4.0.1",
     "graceful-fs": "4.2.11",
     "http-proxy-agent": "5.0.0",
     "https-proxy-agent": "5.0.1",
