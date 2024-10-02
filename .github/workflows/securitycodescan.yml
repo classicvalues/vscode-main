@@ -22,7 +22,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: nuget/setup-nuget@feab6cf35f896789ac9fcac6668014bd800526c3
+      - uses: nuget/setup-nuget@7637ac58f147fe272267fc9683a6ffab98004031
       - uses: microsoft/setup-msbuild@v1.3.1
       
       - name: Set up projects for analysis
