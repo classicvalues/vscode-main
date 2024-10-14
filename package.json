@@ -129,7 +129,7 @@
     "cson-parser": "4.0.9",
     "css-loader": "6.7.3",
     "cssnano": "6.0.0",
-    "debounce": "1.2.1",
+    "debounce": "2.2.0",
     "electron": "27.0.0",
     "deemon": "1.8.0",
     "eslint": "8.38.0",
