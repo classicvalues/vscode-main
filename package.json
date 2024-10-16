@@ -183,7 +183,7 @@
     "mocha": "10.2.0",
     "optimist": "0.6.1",
     "p-all": "4.0.0",
-    "playwright": "1.32.3",
+    "playwright": "1.48.1",
     "pump": "3.0.0",
     "queue": "7.0.0",
     "rcedit": "3.1.0",
