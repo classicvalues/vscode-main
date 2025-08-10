@@ -142,7 +142,7 @@
     "gulp": "4.0.2",
     "gulp-atom-electron": "1.33.0",
     "gulp-azure-storage": "0.12.1",
-    "gulp-bom": "4.0.0",
+    "gulp-bom": "5.0.0",
     "gulp-buffer": "0.0.2",
     "gulp-concat": "2.6.1",
     "gulp-flatmap": "1.0.2",
