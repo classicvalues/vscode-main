@@ -149,7 +149,7 @@
     "gulp-gzip": "1.4.2",
     "gulp-sourcemaps": "3.0.0",
     "gulp-eslint": "6.0.0",
-    "gulp-filter": "8.0.0",
+    "gulp-filter": "9.0.1",
     "gulp-gunzip": "1.1.0",
     "gulp-json-editor": "2.5.7",
     "gulp-plumber": "1.2.1",
